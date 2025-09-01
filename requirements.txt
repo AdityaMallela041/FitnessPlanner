@@ -1,13 +1,23 @@
-python-dotenv
-uvicorn[standard]
-fastapi
-pydantic
-requests
-python-multipart
-streamlit
-torch
-llama-index
-llama-index-llms-gemini
-llama-index-llms-groq
-llama-index-llms-anthropic
-llama-index-core
+# FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Streamlit for frontend
+streamlit==1.28.1
+
+# AI Model Dependencies
+google-generativeai==0.3.1
+anthropic==0.7.7
+groq==0.4.1
+
+# LlamaIndex dependencies
+llama-index==0.9.15
+
+# HTTP and utilities
+requests==2.31.0
+httpx==0.25.0
+
+# Optional but recommended
+typing-extensions==4.8.0
